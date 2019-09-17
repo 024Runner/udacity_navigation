@@ -1,5 +1,4 @@
 <h1>Navigation</h1>
-<hr></hr>
 <h1>Getting Started</h1>
 <hr></hr>
 <h1>Prerequisites</h1>
