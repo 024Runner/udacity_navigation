@@ -10,4 +10,8 @@ Even though input state spaces remain technically discrete, they can be very lar
 
 <h2>Action Vector Output</h2>
 
-Deep Q-Networks are designed to produce a Q-value for every possible action in a single forward pass.  This avoids having to run the neural network individually for every action.
+Deep Q-Networks are designed to produce a Q-value for every possible action in a single forward pass.  This avoids having to run the neural network individually for every action.  This output can be used stochastically or by choosing the action corresponding to the maximum value.
+
+<h2>Convolutional Layers</h2>
+
+The DQN agent not only can exploit spatial relationships and spatial root space but can also extract some temporal properties.  These input and output relationships are implemented via stacked convolutional layers with RLU (regularized linear units) activation followed by a fully connected hidden layer also with RLU and a fully connected linear output layer responsible for producing the vector of output values.
