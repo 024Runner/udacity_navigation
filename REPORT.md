@@ -15,3 +15,9 @@ Deep Q-Networks are designed to produce a Q-value for every possible action in a
 <h2>Convolutional Layers</h2>
 
 The DQN agent not only can exploit spatial relationships and spatial root space but can also extract some temporal properties.  These input and output relationships are implemented via stacked convolutional layers with RLU (regularized linear units) activation followed by a fully connected hidden layer also with RLU and a fully connected linear output layer responsible for producing the vector of output values.
+
+<h2>Replay Buffer</h2>
+
+As the DQN agent interacts with the environment, experience tuples are stored in a buffer.  Batches of experience tuples are then sampled in order to teach the DQN agent.  This allows the agent to learn from individual tuples multiple times particularly as it applies to rare occurrences and/or corner cases.  Most importantly, experience replay allows the agent to sample experience tuples from the replay buffer at random in order to avoid learning from highly-correlated sequence tuples.
+
+<h2>Fixed Q-Targets</h2>
