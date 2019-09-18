@@ -6,4 +6,8 @@ that for a given state output a vector of action values with the max value indic
 
 <h2>Input State Space</h2>
 
-Input state spaces remain technically discrete but most are 
+Even though input state spaces remain technically discrete, they can be very large and difficult to process.  To that end, in order to simplify the problem and optimize the solution, it may be necessary to scale down the input state space in order to leverage optimized neural network operations on GPUs.
+
+<h2>Action Vector Output</h2>
+
+Deep Q-Networks are designed to produce a Q-value for every possible action in a single forward pass.  This avoids having to run the neural network individually for every action.
