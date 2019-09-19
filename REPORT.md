@@ -21,3 +21,6 @@ The DQN agent not only can exploit spatial relationships and spatial root space 
 As the DQN agent interacts with the environment, experience tuples are stored in a buffer.  Batches of experience tuples are then sampled in order to teach the DQN agent.  This allows the agent to learn from individual tuples multiple times particularly as it applies to rare occurrences and/or corner cases.  Most importantly, experience replay allows the agent to sample experience tuples from the replay buffer at random in order to avoid learning from highly-correlated sequence tuples.
 
 <h2>Fixed Q-Targets</h2>
+
+Because Q-learning is a form of temporal difference, learning can be susceptible to a detrimental moving target correlation because all of the Q-values are related according to the parameters of the approximation function.  To ascertain a stable learning environment, it is necessary to fix the function parameters that are used to generate the target (i.e., an unchanged copy of the parameters that isn't changed during the learning step or that is changed less frequently).
+
