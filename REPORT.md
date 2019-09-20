@@ -30,3 +30,5 @@ Because Q-learning is a form of temporal difference, learning can be susceptible
 <h1>Implementation</h1>
 
 <h1>Results</h1>
+![GitHub Logo](/Results.png)
+Format: ![Alt Text](url)
