@@ -28,7 +28,8 @@ As the DQN agent interacts with the environment, experience tuples are stored in
 Because Q-learning is a form of temporal difference, learning can be susceptible to a detrimental moving target correlation because all of the Q-values are related according to the parameters of the approximation function.  To ascertain a stable learning environment, it is necessary to fix the function parameters that are used to generate the target (i.e., an unchanged copy of the parameters that isn't changed during the learning step or that is changed less frequently).
 
 <h1>Implementation</h1>
-
+<h2>model.py</f2>
+<h2>agent.py</f2>
 <h1>Results</h1>
 <img src="Results.PNG" alt = "Results" style = "float: left; margin-right: 10px;" />
 
