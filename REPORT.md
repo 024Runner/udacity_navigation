@@ -30,10 +30,17 @@ Because Q-learning is a form of temporal difference, learning can be susceptible
 <h1>Implementation</h1>
 <h2>model.py</h2>
 
-<li>Responsible for building a network that maps states to action values.
-
+<li>Responsible for building a network that maps states to action values.</li>
+  
 <h2>agent.py</h2>
 
+<li>Epsilon-greedy action selection</li>
+<li>Get maximum predicted Q-values (for next states) from target model
+<li>Compute Q targets for current states
+<li>Get expected Q values from local model
+<li>Compute loss
+<li>Minimize the loss  
+  
 <h1>Results</h1>
 <img src="Results.PNG" alt = "Results" style = "float: left; margin-right: 10px;" />
 
