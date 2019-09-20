@@ -30,9 +30,10 @@ Because Q-learning is a form of temporal difference, learning can be susceptible
 <h1>Implementation</h1>
 <h2>model.py</h2>
 
-Responsible for building a network that maps states to action values.
+<li>Responsible for building a network that maps states to action values.
 
 <h2>agent.py</h2>
+
 <h1>Results</h1>
 <img src="Results.PNG" alt = "Results" style = "float: left; margin-right: 10px;" />
 
