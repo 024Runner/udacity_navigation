@@ -1,7 +1,8 @@
 <h1>Summary</h1>
-This report describes my implementation of a Deep-
-<h1>Abstract</h1>
-<h2>Deep Q-Networks</h2>
+This report describes my implementation of a Deep Q-Network to trained an agent to collect yellow bananas in a large, square world.  I chose a Deep Q-Network because it is well suited for environments consisting of a discrete action space and a continous state space.
+
+<h1>Deep Q-Networks</h1>
+<h2>Abstract</h2>
 
 Deep neural networks act as function approximators.  Specifically, Deep Q-Networks are multi-layered neural networks
 that for a given state output a vector of action values with the max value indicating the action to take.  Reward changes are fed back as the reinforcement signal at each time step.  It stands to reason that, in the beginning, actions are vastly innapropriate because the neural network is initialized with random values.  Hence, it also stands to reason that, in time, actions become more appropriate as the neural network learns to associate states and state sequences with actions.
