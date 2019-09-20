@@ -30,5 +30,5 @@ Because Q-learning is a form of temporal difference, learning can be susceptible
 <h1>Implementation</h1>
 
 <h1>Results</h1>
-(Results.PNG)
+<img src="Results.PNG" alt = "Results" style = "float: left; margin-right: 10px;" />
 
