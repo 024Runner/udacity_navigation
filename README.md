@@ -45,14 +45,16 @@ Download the Unity environment (the following operating systems are supported):
 [Windows (32-bit)](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)<br>
 [Windows (64-bit](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)<br>
 
-<h2>Running Instructions</h2>
+<h2>Project Files</h2>
 
-<li type "1">Download the following project files:
+Download the following project files:
 
 <li>Navigation.ipynb
 <li>model.py
 <li>agent.py
- 
+
+<h2>Running Instructions</h2>
+
 Open Navigation.ipynb and execute
 
 
