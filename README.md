@@ -35,7 +35,7 @@ The code must be written in PyTorch and Python 3.
 
 Download the environment (the following operating systems are supported):
 
-<li>Linux [https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip]
+<li>Linux [Link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
 <li>Mac OSX 
 <li>Windows (32-bit)
 <li>Windows (64-bit)
