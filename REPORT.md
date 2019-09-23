@@ -52,3 +52,10 @@ Because Q-learning is a form of temporal difference, learning can be susceptible
 <h1>Results</h1>
 <img src="Results.PNG" alt = "Results" style = "float: left; margin-right: 10px;" />
 
+<h1>Future Work</h1>
+
+Improve agent performance via one of the following algorithms:
+
+<li>Double DQN
+<li>Prioritized Experience Replay
+<li>Dueling DQN
