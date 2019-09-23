@@ -33,15 +33,14 @@ The code must be written in PyTorch and Python 3.
 
 <h1>Getting Started</h1>
 
+[Set up the Python environment](https://github.com/udacity/deep-reinforcement-learning/#dependencies)
+
 Download the environment (the following operating systems are supported):
 
-http://github.com - automatic!
-[GitHub](http://github.com)
-
- [Linux](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
-<li>Mac OSX 
-<li>Windows (32-bit)
-<li>Windows (64-bit)
+[Linux](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+[Mac OSX](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+[Windows (32-bit)](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+[Windows (64-bit](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
 Place the file in bin/ directory, and unzip (or decompress) the file.
 
