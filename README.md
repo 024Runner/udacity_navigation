@@ -27,15 +27,22 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
-<h2>Getting Started</h2>
-
 <h2>Prerequisites</h2>
 
 The code must be written in PyTorch and Python 3.
 
-<h2>Installing</h2>
+<h1>Getting Started</h1>
 
-<h1>Running Tests</h1>
+Download the environment (the following operating systems are supported):
+
+<li>Linux [https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip]
+<li>Mac OSX 
+<li>Windows (32-bit)
+<li>Windows (64-bit)
+
+Place the file in bin/ directory, and unzip (or decompress) the file.
+
+<h1>Running Instructions</h1>
 
 
 
