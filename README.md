@@ -38,7 +38,7 @@ Download the environment (the following operating systems are supported):
 http://github.com - automatic!
 [GitHub](http://github.com)
 
-<li>Linux [Link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+<li>https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip [Linux]
 <li>Mac OSX 
 <li>Windows (32-bit)
 <li>Windows (64-bit)
