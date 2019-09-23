@@ -47,9 +47,9 @@ Download the Unity environment (the following operating systems are supported):
 
 <h2>Running Instructions</h2>
 
-Download the following project files:
+<li type "1">Download the following project files:
 
-<l1>Navigation.ipynb
+<li>Navigation.ipynb
 <li>model.py
 <li>agent.py
  
