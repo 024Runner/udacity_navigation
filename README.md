@@ -10,13 +10,24 @@ This nanodegree teaches cutting-edge Deep Reinforcement Learning algorithms — 
 
 <h1>Navigation</h1>
 
-The first project requires training an agent to collect yellow bananas while avoiding blue bananas.
+The first project requires training an agent to collect yellow bananas while avoiding blue bananas.  To be considered successful, the agent must be able to receive an average reward (over 100 episodes) of at least +13.
 
 ![alt text](https://video.udacity-data.com/topher/2018/June/5b1ab4b0_banana/banana.gif "")
 
+When the agent collects a yellow banana, a reward of +1 will be awarded and a reward of -1 when a blue banana is collected. Hence, it stands to reason that the agent should learn to collect as many yellow bananas as possible while avoiding blue bananas.
+
+At each time step, the agent may take one of four actions:
+
+<li>0: Walk Forward
+<li>1: Walk Bakcward
+<li>2: Turn Left
+<li>3: Turn Right
+  
 <h1>Getting Started</h1>
 
-<h1>Prerequisites</h1>
+<h2>Prerequisites</h2>
+
+The code must be written in PyTorch and Python 3.
 
 <h1>Installing</h1>
 
