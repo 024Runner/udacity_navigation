@@ -36,7 +36,7 @@ The code must be written in PyTorch and Python 3.
 <h2>Python</h2>
 [Set up the Python environment](https://github.com/udacity/deep-reinforcement-learning/#dependencies)
 
-<h2>Environment<h2/>
+<h2>Environment</h2>
   
 Download the Unity environment (the following operating systems are supported):
 
