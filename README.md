@@ -22,14 +22,18 @@ At each time step, the agent may take one of four actions:
 <li>1: Walk Bakcward
 <li>2: Turn Left
 <li>3: Turn Right
-  
-<h1>Getting Started</h1>
+
+The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction.
+
+The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
+
+<h2>Getting Started</h2>
 
 <h2>Prerequisites</h2>
 
 The code must be written in PyTorch and Python 3.
 
-<h1>Installing</h1>
+<h2>Installing</h2>
 
 <h1>Running Tests</h1>
 
