@@ -47,13 +47,13 @@ Download the Unity environment (the following operating systems are supported):
 
 <h2>Running Instructions</h2>
 
-1. Download the following project files:
+Download the following project files:
 
 <l1>Navigation.ipynb
 <li>model.py
 <li>agent.py
  
-2. Open Navigation.ipynb and execute
+Open Navigation.ipynb and execute
 
 
 
