@@ -35,9 +35,9 @@ The code must be written in PyTorch and Python 3.
 
 <h2>Python</h2>
 
-Set up the Python environment using the link below
+Set up the Python environment following the instructions in the link below:
 
-(https://github.com/udacity/deep-reinforcement-learning/#dependencies)
+https://github.com/udacity/deep-reinforcement-learning/#dependencies
 
 <h2>Environment</h2>
   
